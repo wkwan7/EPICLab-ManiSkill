@@ -1,1 +1,0 @@
-_base_ = ['../_base_/gail/gail_mani_skill_pc.py']
