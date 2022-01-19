@@ -1,20 +1,20 @@
 # EPICLab-ManiSkill
-This repository is the official submission of *EPIC Lab* for *no external annotation* track of SAPIEN ManiSkill Challenge 2021
+This repository is the official submission of *EPIC Lab* for *no external annotation* track of [SAPIEN ManiSkill Challenge 2021](https://sapien.ucsd.edu/challenges/maniskill2021/).
 
 ## Dependency
 
-Please see [environment.yml](evaluation/Drawer/environment.yml), we build our method on top of [ManiSkill-Learn](https://github.com/haosulab/ManiSkill-Learn)
+Please see [environment.yml](evaluation/Drawer/environment.yml), we build our method on top of [ManiSkill-Learn](https://github.com/haosulab/ManiSkill-Learn).
 
 ## Data
 
-Please download ManiSkill demonstration dataset from [here](https://github.com/haosulab/ManiSkill) and store it in the [training/data](training/data).
+Please download ManiSkill demonstration dataset from [here](https://github.com/haosulab/ManiSkill) and store it in the folder [training/data](training/data).
 
 
 ## Training
 
 The training code is provided in [training](training).
 
-OpenCabinetDoor: run the shell command [raining/scripts/train_rl_agent/run_GAIL_door.sh](training/scripts/train_rl_agent/run_GAIL_door.sh)
+OpenCabinetDoor: run the shell command [training/scripts/train_rl_agent/run_GAIL_door.sh](training/scripts/train_rl_agent/run_GAIL_door.sh)
 
 OpenCabinetDrawer: run the shell command [training/scripts/train_rl_agent/run_SAC_drawer.sh](training/scripts/train_rl_agent/run_SAC_drawer.sh)
 
