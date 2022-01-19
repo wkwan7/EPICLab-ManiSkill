@@ -1,0 +1,1 @@
+_base_ = ['../_base_/sac_bc/sac_bc_mani_skill_pc.py']

@@ -1,0 +1,2 @@
+python -m tools.run_rl configs/gail/gail_mani_skill_transformer_train_chair.py --seed=0 --cfg-options "env_cfg.env_name=PushChair-v0" \
+--work-dir=./work_dirs/gail_transformer_chair/PushChair --num-gpus=1 --clean-up
